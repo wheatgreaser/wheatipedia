@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "wikifun",
+    "name": "wheatipedia",
     "slug": "wikifun",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/actuallycoolicon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets//actuallycoolicon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/actuallycoolicon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.wheatgreaser3000.wikifun"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f271e948-8baa-415b-8eb6-69d2515cb7f1"
+      }
     }
   }
 }
